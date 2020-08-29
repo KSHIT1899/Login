@@ -1,0 +1,183 @@
+body{
+    background-color: #ffd5cd;
+    color: #fff;
+    margin: 0;
+    background-image: url(bg1.png);
+}
+#head{
+    text-align: center;
+}
+.headt{
+    font-size: 150%;
+}
+.maintxt{
+    font-family: 'Playfair Display', serif;
+    font-size: 280%;
+}
+h1{
+    font-family: 'Red Rose', cursive;
+    font-size: 300%;
+}
+.manh{
+    height: 50px;
+}
+p{
+    font-family: 'Raleway', sans-serif; 
+    line-height: 150%; 
+}
+.ab{
+    font-size: 2vw;
+}
+hr {
+    margin-top: 30px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #158467;
+    border-width: 5px; 
+    width: 5%;
+}
+div{
+    padding: 0 10px 0;
+}
+.myimg{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: #e0dede;
+    font-weight: 900;
+}
+a:hover{
+    color: #b6eb7a;
+    text-shadow: 0 2px;
+}
+ul{
+  list-style-type: square;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
+.skills{
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    margin-top: 60px;
+}
+.scode{
+    margin-top: 5px;
+}
+.code{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-right: 20px;
+}
+.dev
+{
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding-left: 20px;
+}
+.sktxt{
+    font-size: 200%;
+    font-family: 'Sriracha', cursive;
+}
+.skitxt{
+    font-size: 2vw;
+}
+.conta{
+    text-align: center;
+    margin: 4% 0 4%;
+}
+.cont{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.contac{
+    color: #fadcac;
+}
+.contac:hover{
+    color: #cffffe;
+}
+footer{
+    margin: 0%;
+}
+.foot{
+    padding: 1% 0 1%;
+    margin: none;
+    text-align: center;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: none;
+    font-size: 150%;
+    
+}
+.ctxt{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+}
+@media screen and (max-width:1300px){
+    .myimg{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media screen and (max-width:800px)
+{
+    li,.ab,.skitxt{
+        font-size: 3vw;
+        font-weight: 300;
+    }
+    .myimg{
+        width: 140px;
+        height: 140px;
+    }
+    h1{
+        font-size: 150%;
+    }
+    .manh{
+        height: 30px;
+    }
+    .ctxt{
+        text-align: center;
+        font-size: 2.3vw;
+    }
+}
+@media screen and  (max-width:600px)
+{
+.dpimg{
+        text-align: center;
+    }
+.myimg{
+    float:none;
+}
+.skills
+{
+    text-align: center;
+}  
+.skills{
+    margin-top: 10px;
+}
+.scode{
+    margin-top: 10px;
+}  
+.code{
+    float:none;
+    width: 100px;
+    height: 100px;
+}
+.dev{
+    float:none;
+    width: 100px;
+    height: 100px;
+}
+}
+#whole{
+    margin-left: 10px !important; 
+}
